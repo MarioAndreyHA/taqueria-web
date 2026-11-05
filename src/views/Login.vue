@@ -5,7 +5,7 @@ import { useRouter } from 'vue-router'
 const router = useRouter()
 const password = ref('')
 const error = ref(false)
-const API_URL = 'https://TU_ENLACE_DE_RENDER.onrender.com' // <-- PON TU ENLACE REAL AQUÍ
+const API_URL = 'https://taqueria-backend.onrender.com'
 
 const handleLogin = async () => {
   try {

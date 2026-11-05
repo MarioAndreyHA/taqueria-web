@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted, computed } from 'vue'
 
-const API_URL = 'http://localhost:5000'
+const API_URL = 'https://taqueria-backend.onrender.com'
 const categorias = ref([])
 const menuItems = ref([])
 const config = ref({})

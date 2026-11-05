@@ -3,7 +3,7 @@ import { ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 
 const router = useRouter()
-const API_URL = 'https://TU_ENLACE_DE_RENDER.onrender.com' // <-- PON TU ENLACE REAL AQUÍ
+const API_URL = 'https://taqueria-backend.onrender.com' 
 const activeTab = ref('productos') 
 
 const isSaving = ref(false)
